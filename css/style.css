@@ -1,0 +1,275 @@
+body{
+	/*overflow: hidden;*/
+}
+
+.lang_flag{
+	width: 15px;
+	height: 10px; 
+}
+
+.stand_action{
+	width: 35px;
+	height: 35px; 	
+}
+
+.stand_model{
+	border-top: 2px solid black;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.stand_panel{
+	min-height: 50px;
+	min-width: 200px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+
+.stand_panel:hover{
+	background-color: #d1d2d3;
+	color: #000000;
+}
+
+.pn_action_edit{
+	width: 35px;
+	height: 35px; 	
+}
+
+.pn_action_remove{
+	width: 35px;
+	height: 35px; 	
+}
+
+.option_panel{
+	min-height: 50px;
+	min-width: 200px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 15px;
+}
+
+.option_panel:hover{
+	background-color: #d1d2d3;
+	color: #000000;
+}
+
+.access_icon{
+	width: 35px;
+	height: 35px;
+}
+
+.td_icon{
+	max-width: 35px;
+	max-height: 35px;
+}
+
+
+.mytooltip {
+	position: relative;
+	display: inline-block;
+}
+
+/* Tooltip text TOP*/
+.mytooltip .mytooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 20px;
+	
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+/* Tooltip text botom*/
+.mytooltip .mytooltiptext_botom {
+	visibility: hidden;
+	width: 400px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 20px;
+	padding: 5px 0;
+	
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 100%;
+	left: 20%;
+	margin-left: -60px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.mytooltip:hover .mytooltiptext {
+	visibility: visible;
+}
+
+.mytooltip:hover .mytooltiptext_botom {
+	visibility: visible;
+}
+
+.is_damaged{
+	color: #f01313;
+	font-weight: 900;
+}
+
+#home_panel{
+	margin-bottom: 25px;
+}
+
+.search_input{
+	border-width: 3px 0px 3px 3px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-color: c2c2c2;
+	min-width: 450px;
+	height: 50px;
+	text-align: center;
+}
+
+.search_input:hover{
+	border-color: 57f0ed;
+}
+
+.search_input:focus{
+	border-color: 57f0ed;
+}
+
+#search-button{
+	height: 50px;
+	border-width: 3px 3px 3px 0px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	margin-bottom: 5px;
+	min-width: 75px;
+	max-width: 75px;
+}
+
+.search-image{
+	width: 25px;
+	height: 25px;
+}
+
+.gradient-custom {
+/* fallback for old browsers */
+
+}
+
+@media (min-width: 1200px){
+	#stand_panel{	
+		width: 60%;
+	}
+	
+	#stand_card{
+		padding-top: 1rem!important;
+		padding-bottom: 0rem!important;
+	}
+
+}
+
+.option_card{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.option_content{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+    border-style: groove;
+    background-color: e5e5e5;
+}
+
+.option_content label{
+    display: inline-block;
+    width: 40%;
+}
+
+.option_content input{
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.option_content input:hover{
+    border-color: 09f910;
+    background-color: e8ece8;
+}
+
+.option_content input:focus{
+    border-color: 09f910;
+    background-color: e8ece8;
+}
+
+.option_content select{
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.option_content select:hover{
+    border-color: 09f910;
+    background-color: e8ece8;
+}
+
+.option_content select:focus{
+    border-color: 09f910;
+    background-color: e8ece8;
+}
+
+.option_table{
+	width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+	vertical-align: none!important;
+	/*max-height: 300px;
+	overflow: auto;*/
+}
+
+.option_table td{
+	text-align: center;
+}
+
+#tb_pn,  #tb_sn{
+	width: 120px;
+}
+
+.noneOH{
+	width: 20px;
+	height: 20px; 	
+}
+
+#tb_set{
+	font-size: 12px;
+}
+
+.menu{
+	font-size: 1.0rem!important;
+}
+
+.rep_img{
+	width: 27px;
+	height: 27px;
+}
+
+.exc_img{
+	width: 30px;
+}
+
+.headline{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
